@@ -28,3 +28,41 @@
 /* ==============================
    Navigation part css end 
    ==============================*/
+
+/* ==============================
+   Banner part css start 
+   ==============================*/
+   #banner_part .align_mid_text{
+    top: 57%;
+    transform: translateY(-40%);
+    -webkit-transform: translateY(-40%);
+    -moz-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    -o-transform: translateY(-40%);
+}
+
+#banner_part .align_mid_text h1{
+    font-size: 65px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    line-height: 85px;
+}
+#banner_part .align_mid_text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    margin: 10px 30px 40px 30px;
+}
+#banner_part .button_custom{
+    background-color: #DE6B28;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+/* ==============================
+   Banner part css end 
+   ==============================*/

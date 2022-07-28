@@ -362,7 +362,37 @@
                     readable content of a page when looking at its layout</p>
             </div>
             <div class="col-lg-4 d-flex justify-content-center">
-                <button type="button" class="btn px-5 py-3 border border-0 rounded-1 mt-3 text-primary bg-light font_family fs-5">Register Now</button>
+                <button type="button" class="btn px-5 py-3 border border-0 rounded-1 mt-3 text-primary bg-light font_family fs-5" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Register Now</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Registration Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Recipient Email address</label>
+                            <input type="email" class="form-control" id="recipient-name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="recipient-name2" class="col-form-label">Recipient Password</label>
+                            <input type="password" class="form-control" id="recipient-name2">
+                          </div>
+                          <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn bc px-2 py-2 border border-0 rounded-1 mt-3" data-bs-dismiss="modal">cancel</button>
+                        <button type="button" class="btn bc px-2 py-2 border border-0 rounded-1 mt-3">submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
         </div>
     </section>

@@ -534,19 +534,15 @@
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        <h4 class="font_family fw-bold pe-5">Q1: What does CSS mean and what is its definition?</h4>
+                        <h4 class="font_family fw-bold pe-5">Q1: What are the main differences between Flexbox and CSS Grid?</h4>
                     </button>
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <p class="font_family">CSS is the acronym of “Cascading Style Sheets”. <br><br>
-
-                            CSS is a computer language for laying out and structuring web pages (HTML or XML).
-                            <br><br>
-
-                            This language contains coding elements and is composed of these “cascading style sheets”
-                            which are equally called CSS files (.css).
+                        <p class="font_family">Dimensions define the primary demarcation between Flexbox and CSS Grid. Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render rows and columns simultaneously. <br><br>
+                          In layperson&#39;s terms, CSS Grid presents a larger canvas, while Flexbox offers minute functionality that operates in a restricted space. The grids have been designed for a two-dimensional organization.<br><br>
+                          However, the two specifications share some common points, and if you know how to use flexible boxes, you will find some concepts that will help you to grasp CSS grids.
                         </p>
                     </div>
                 </div>
@@ -555,20 +551,15 @@
                 <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        <h4 class="font_family fw-bold pe-5">Q2: What is Semantic Tag?</h4>
+                        <h4 class="font_family fw-bold pe-5">Q2: Bootstrap vs Tailwind CSS: What are the differences?</h4>
                     </button>
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <p>The core characteristic of a semantic element is that it clearly communicated its meaning
-                            to both the developer and the browser. These elements clearly define its content.
-                            <br><br>
+                        <p>As you can see from the examples above, the two frameworks differ quite a bit. Bootstrap has UI components baked into it, so all you have to do is add your content and flavor to it. Bootstrap&#39;s utility and layout classes provide you with everything you need to style a responsive webpage. With Tailwind, however, you are much more involved in styling the webpage because you end up having to create your own components using the utility classes that the framework offers. <br><br>
 
-                            Semantic HTML5 addresses this shortcoming by defining specific tags to indicate clearly
-                            what role is played by the content those tags contain. That explicit information helps
-                            robots/crawlers like Google and Bing to better understand which content is important,
-                            which is a subsidiary, which is for navigation, and so on.
+                          Don&#39;t let Tailwind&#39;s lack of components fool you. Even though it is a utility-first framework, Tailwind is still component-driven. By extracting the utilities into components or template partials, or using the @apply directive, you now have a component. Both frameworks are made to be responsive and they&#39;re both meant to make developing faster than without any framework.
                         </p>
                     </div>
                 </div>
@@ -584,14 +575,9 @@
                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                     aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <p>In CSS, the term "box model" is used when talking about design and layout.
-                            The CSS box model is essentially a box that wraps around every HTML element. It consists
-                            of: margins, borders, padding, and the actual content. <br> <br> <br>
-                            Explanation of the different parts: <br> <br>
-                            Content - The content of the box, where text and images appear <br>
-                            Padding - Clears an area around the content. The padding is transparent <br>
-                            Border - A border that goes around the padding and content <br>
-                            Margin - Clears an area outside the border. The margin is transparent.
+                        <p>When laying out a document, the browser's rendering engine represents each element as a rectangular box according to the standard CSS basic box model. CSS determines the size, position, and properties (color, background, border size, etc.) of these boxes. <br><br>
+
+                          Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
                         </p>
                     </div>
                 </div>
@@ -601,32 +587,21 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFour" aria-expanded="false"
                         aria-controls="flush-collapseFour">
-                        <h4 class="font_family fw-bold pe-5">Q4: What's the Difference between CSS Grid and CSS Flexbox?
+                        <h4 class="font_family fw-bold pe-5">Q4: What is an HTML Semantic Tag and Why Do You Need To Use It?
                         </h4>
                     </button>
                 </h2>
                 <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <p>Difference Between Grid and Flexbox: <br> <br> <br>
+                        <p>HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, its needs changed. <br> 
 
-                            1. Dimensionality and Flexibility: <br>
-                            Flexbox offers greater control over alignment and space distribution between items.
-                            Being one-dimensional, Flexbox only deals with either columns or rows.
-                            Grid has two-dimension layout capabilities which allow flexible widths as a unit of
-                            length. This compensates for the limitations in Flex. <br> <br>
-                            2. Alignment: <br>
-                            Flex Direction allows developers to align elements vertically or horizontally, which is
-                            used when developers create and reverse rows or columns.
-                            CSS Grid deploys fractional measure units for grid fluidity and auto-keyword
-                            functionality to automatically adjust columns or rows. <br> <br>
-                            3. Item Management: <br>
-                            Flex Container is the parent element while Flex Item represents the children. The Flex
-                            Container can ensure balanced representation by adjusting item dimensions. This allows
-                            developers to design for fluctuating screen sizes.
-                            Grid supports both implicit and explicit content placement. Its inbuilt automation
-                            allows it to automatically extend line items and copy values into the new creation from
-                            the preceding item.
+                          Where the internet was originally intended for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer. <br>
+                          To look at the benefits of semantic elements, here are two pieces of HTML code. This first block of code uses semantic elements: <br><br>
+                          First, it is much easier to read. This is probably the first thing you will notice when looking at the first block of code using semantic elements. This is a small example, but as a programmer you can be reading through hundreds or thousands of lines of code. The easier it is to read and understand that code, the easier it makes your job.
+                          <br><br>
+
+It has greater accessibility. You are not the only one that finds semantic elements easier to understand. Search engines and assistive technologies (like screen readers for users with a sight impairment) are also able to better understand the context and content of your website, meaning a better experience for your users.
 
                         </p>
                     </div>
@@ -637,28 +612,21 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseFive" aria-expanded="false"
                         aria-controls="flush-collapseFive">
-                        <h4 class="font_family fw-bold pe-5">Q5: What are the difference between Bootstrap Vs Tailwind
-                            CSS?
+                        <h4 class="font_family fw-bold pe-5">Q5: Why learning vanilla CSS is so important?
                         </h4>
                     </button>
                 </h2>
                 <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <p>The main difference between Bootstrap and Tailwind is that Bootstrap pre-built components
-                            that provide a responsive UI (user interface) kit. On the other hand, Tailwind comes
-                            with predesigned widgets that facilitate web developers to design a website from
-                            scratch. Both Bootstrap and Tailwind are two of the best front-end CSS framework used
-                            worldwide. <br> <br>
-                            Bootstrap is a front-end framework to develop websites based on the CSS framework. It
-                            offers pre-built interface elements such as navigation, typography, buttons, and forms.
-                            The templates provided by Bootstrap are designed using either JavaScript or CSS
-                            (Cascading Style Sheets). Many web designers recommend bootstrap because it creates
-                            responsive and fast websites. <br> <br>
-                            Everything in CSS has a box around it, and understanding these boxes is key to being
-                            able to create more complex layouts with CSS, or to align items with other items. In
-                            this lesson, we will take a look at the CSS Box Model. You'll get an understanding of
-                            how it works and the terminology that relates to it.
+                        <p>the term vanilla CSS os used to describe plain old &#8216;classic&#8217; CSS that doesn&#8217;t rely on other plugins or frameworks or libraries. Vanilla CSS is extremely powerful on its own and provides you with a multitude of styling tools.
+                          <br><br>
+
+                          I cannot begin to emphasise the importance of learning vanilla CSS if you are looking to do frontend work. Yes there are a lot of amazing libraries like Bootsrap that enable you to do things much faster and not have to worry about the intricate details of positioning and styling elements. But in my personal opinion, knowing “what&#8217;s going on under the hood” is an extremely valuable tool to have.
+                          <br><br>
+                          Most features that libraries provide you can all boil down to vanilla HTML, CSS and Javascript. knowing these languages in their pure form and on a fundamental level gives a lot of power in navigating you codebase and making things look and work how you want them to.
+                          <br><br>
+                          Moreover, on the debugging front, the need for knowing how and why things work is probably the only fundamental truth. What I mean by that is that, logically speaking, you cannot fix something when you have no effing idea how and why that thing works.
                         </p>
                     </div>
                 </div>

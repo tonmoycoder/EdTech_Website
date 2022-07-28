@@ -59,7 +59,7 @@
     line-height: 30px;
     margin: 10px 30px 40px 30px;
 }
-#banner_part .bc, #courses .bc, #explore .bc{
+#banner_part .bc, #courses .bc, #explore .bc,#student .bc{
     background-color: #DE6B28;
     font-size: 20px;
     font-weight: 600;
@@ -78,7 +78,7 @@
      font-size: 45px;
      font-family: 'Poppins', sans-serif;
     }
-    #courses .courses_des,#explore p{
+    #courses .courses_des,#explore p,#feedback p{
      color: #777777;
      font-weight: 400;
      font-size: 16px;
@@ -90,7 +90,7 @@
         color: #4A4A4A;
         font-size: 25px;
     }
-    .card-text{
+    .card-text, #student .tstyle{
         color: #777777;
         font-size: 16px;
         line-height: 26px;
@@ -102,4 +102,13 @@
     }
 /* ==============================
    Courses part css end 
+   ==============================*/
+/* ==============================
+   feedback part css start 
+   ==============================*/
+   .fa-solid, .fas,.fa-regular, .fa {
+	color: #F59E0B;
+}
+/* ==============================
+   feedback part css end 
    ==============================*/

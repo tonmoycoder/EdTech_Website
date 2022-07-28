@@ -1,0 +1,30 @@
+/* ======================
+   Google Fonts import 
+   ======================*/
+
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+/* ==============================
+   Navigation part css start 
+   ==============================*/
+   
+   .nav_height{
+       height: 80px;
+   }
+   .nav_height img{
+         max-height: 40px;
+   }
+   #navigation ul li a{
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+   }
+   #navigation ul li a:hover{
+    color: #383CC1;
+   }
+/* ==============================
+   Navigation part css end 
+   ==============================*/

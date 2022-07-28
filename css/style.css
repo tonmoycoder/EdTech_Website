@@ -78,7 +78,7 @@
      font-size: 45px;
      font-family: 'Poppins', sans-serif;
     }
-    #courses .courses_des,#explore p,#feedback p{
+    #courses .courses_des,#explore p,#feedback p,#qna p{
      color: #777777;
      font-weight: 400;
      font-size: 16px;
@@ -111,4 +111,15 @@
 }
 /* ==============================
    feedback part css end 
+   ==============================*/
+/* ==============================
+   QNA part css start 
+   ==============================*/
+   #qna h4{
+    color: #4A4A4A;
+    font-weight: 600;
+    font-size: 20px;
+   }
+/* ==============================
+   QNA part css end 
    ==============================*/
